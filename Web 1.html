@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kristianto Haryodi's CV</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="function.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1>Kristianto Haryodi's CV</h1>
+            </div>
+            <nav>
+                <ul class="dropdown">
+                    <li class="education"><a href="Web 1.html"><button>Education</button></a></li>
+                    <li class="experience"><a href="#education"><button>Experience</button></a></li>
+                    <li class="contact"><a href="#contact"><button>Contact</button></a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <br>
+            <marquee behavior="scroll" direction="left" > ==== || Welcome to my CV !! &nbsp; Please Enjoy to Check It ... &nbsp; Contact Me for Further Information ... || ==== </marquee>
+        </header>
+        <main>
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>Kristianto Haryodi</h2>
+                    <figure>
+                        <img src="57087.jpg" class= "featured-image">
+                    </figure>
+                    </header>
+                    <section>
+                        <p> Saya merupakan mahasiswa aktif di Universitas Gadjah Mada (UGM) dengan mengambil jurusan Teknologi Informasi yang memiliki kemampuan membuat web sederhana. Saya memiliki ketertarikan di bidang User Experience (UX), bisnis, dan marketting.</p>
+                    </section>    
+                </article>    
+                <article class="skill card">
+                    <h3>My Skill  <button id="showbtn"> <i class="fa fa-angle-up"></i></button></h3> 
+                        <img src="skills.jpg" id="skills" class="featured-image" >
+                </article>            
+            </aside>
+            <div id="content">
+                <article id="education" class="card">
+                    <section class="container-content">
+                        <div class="container">
+                            <a class="next" href="#next" onclick="plusSlides(1)">
+                                &#10095;
+                                <span style="color: black" class="control-next-icon"></span>
+                            </a>
+                            <div class="item" style="display: block;">
+                                <img src="ugm.jpeg" class="featured-image" width="500px" height="300px" style="float: right; margin-right: 10px; margin-left: 10px;">
+                            </div>
+                            <div class="item"><img src="SMA-Kolese-De-Britto-Yogyakarta.jpg" class="featured-image" height="300px" width="500px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <div class="item"><img src="stc.jpg" class="featured-image" width="500px" height="300px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <div class="item"><img src="logo-sd-tumbuh.jpg" class="featured-image" width="500px" height="300px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <a class="prev" href="#prev" onclick="plusSlides(-1)">&#10094;
+                                <span style="color: black" class="control-prev-icon"></span>
+                            </a>
+                        <h2><u>Education</u></h3>
+                        <ul>
+                            <li>Universitas Gadjah Mada</li>
+                            <p style="font-size: small;color: gray;">2018 - Sekarang</p>
+                            <li>SMA Kolese De Britto</li>
+                            <p style="font-size: small; color: gray;">2015-2018</p>
+                            <li>SMP Stella Duce 1 Yogyakarta</li>
+                            <p style="font-size: small; color: gray;">2012-2015</p>
+                            <li>SD Tumbuh</li>
+                            <p style="font-size: small; color: gray;">2006-2012</p>
+                        </ul> 
+                        </div>
+                    </section>
+                    
+                </article>
+                <article id="experience" class="card">
+                    <section class="container-content">
+                        <div class="container">
+                            <h2><u>Experience</u></h2>
+                            <a class="next2" href="#next2" onclick="plusSlides(1)"> &#10095;
+                                <span style="color: black" class="control-next-icon"></span>
+                            </a>
+                            <div class="item2" style="display: block;">
+                                <img src="ppsmb.jpg" class="featured-image" width="400px" height="400px" style="float: right; margin-right: 10px; margin-left: 10px;">
+                            </div>
+                            <div class="item2"><img src="Logo-Universitas-Gadjah-Mada-Original.jpg" class="featured-image" height="400px" width="400px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <div class="item2"><img src="findit.png" class="featured-image" width="400px" height="400px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <div class="item2"><img src="tc.jpg" class="featured-image" width="400px" height="400px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <div class="item2"><img src="kmteti.png" class="featured-image" width="400px" height="400px" style="float: right; margin-right: 10px; margin-left: 10px;"></div>
+                            <a class="prev2" href="#prev2" onclick="plusSlides(-1)"> &#10094;
+                                <span style="color: black" class="control-prev-icon"></span>
+                            </a>
+                            <ul>
+                                <li>Koordinator Divisi Jaringan & IT PPSMB Kesatria FT UGM</li>
+                                <p style="font-size: small; color: gray;">Juli 2020 - September 2020</p>
+                                <li>Tutor</li>
+                                <p style="font-size: small; color: gray;">Februari 2020 - Juni 2020</p>
+                                <li>Koordinator Divisi Liaison Officer FindIT</li>
+                                <p style="font-size: small; color: gray;">September 2019 - Agustus 2020</p>
+                                <li>Staff Divisi Liaison Officer Technocorner </li>
+                                <p style="font-size: small; color: gray;">2020</p>
+                                <li>Staff Divisi Teknis Robotik Technocorner </li>
+                                <p style="font-size: small; color: gray;">2006-2012</p>
+                                <li>Staff Divisi Liaison Officer FindIt </li>
+                                <p style="font-size: small; color: gray;">2006-2012</p>
+                                <li>Laboratory Assistant of Fundamental Programming</li>
+                                <p style="font-size: small; color: gray;">2006-2012</p>
+                                <li>Staff Divisi Workshop KMTETI </li>
+                                <p style="font-size: small; color: gray;">2006-2012</p>
+                            </ul>
+                            
+                        </div>
+                    </section>
+                </article>
+            </div>    
+    </main>
+    <a class="gotopbtn" href="#"><i class="fas fa-chevron-up"></i></a>
+    <footer id="contact">
+        <p>Contact Me Via...</p>
+        <a href="https://www.instagram.com/kristharyodi/"><img src="download.jpg" width="30px"></a>
+        <a href="https://www.linkedin.com/in/kristianto-haryodi-8a122a14b/"><img src="download.png" height="30px"></a>
+        <h6>&copy; Copyright 2020 Kristianto Haryodi</h5>
+    </footer>
+    
+</body>
+</html>

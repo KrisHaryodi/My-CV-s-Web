@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+header{
+    display: inline;
+}
+marquee{
+    color: white;
+    font-family: Arial;
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(24, 3, 3);
+}
+div#content{
+    background-color: rgb(235, 227, 154);
+    padding: 20px 15px;
+    float: left;
+    width: 74%;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: beige;
+    text-align: justify;
+}
+h2{
+    color: brown;
+}
+h3{
+    color: brown;
+    text-align: center;
+}
+.showbtn{
+    background: beige;
+}
+footer{
+    padding: 3px;
+    color: darkorange;
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgb(177, 116, 73);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 280px;
+}
+nav a{
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) 
+      {
+          nav a, nav li
+          {
+              float: none;
+              display: inline;
+              text-align: left;
+              margin: 1px;
+              padding: 3px;
+          }
+          nav input[type=text]
+          {
+              border: 1px solid #ccc;
+          }
+      }
+
+.dropdown li{
+    opacity: 1;
+}
+.burger{
+    display: block;
+}
+.dropdown button{
+    background: none;
+    border: none;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s;
+    letter-spacing: 2px;
+    outline: none;  
+    font-weight: bold; 
+}
+.dropdown:hover button:not(:hover){
+    font-weight: lighter;
+}
+.profile header{
+    text-align: center;
+}
+
+.container{
+        overflow: hidden;
+        margin: auto;
+    }
+.container-content {
+         width: 100%;
+         overflow: auto;
+}
+
+.item{
+    display: none;
+}
+.item2{
+    display: none;
+}
+.prev, .next{
+    cursor: pointer;
+    width: auto;
+    margin-top: 125px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.5s ease;
+    border-radius:0 3px 3px 0;
+    user-select: none;
+    float: right;
+}
+
+.next {
+    right: 0;
+    float: right;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.prev2, .next2 {
+        cursor: pointer;
+        width: auto;
+        margin-top: 180px;
+        padding: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 28px;
+        transition: 0.5s ease;
+        border-radius:0 3px 3px 0;
+        user-select: none;
+        float: right;
+}
+.next2 {
+    right: 0;
+    float: right;
+}
+
+.prev2:hover, .next2:hover {
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.featured-image{
+    object-fit: cover;
+    object-position: center;
+}
+.profile img{
+    width: 200px;
+    padding-right: 30px;
+}
+.skill img{
+    height: 280px;
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(71, 35, 3);
+    text-align: center;
+    color: white;
+    margin: auto;
+
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.541);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1000px){
+    #content,
+    aside, .item, .item2,.profile,.featured-image{
+        width: 100%;
+        padding:0;
+    }
+}
